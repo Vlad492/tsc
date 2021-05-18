@@ -1,4 +1,4 @@
-export function prepareString(dataString: string): void {
+export function prepareString(dataString: string): void | string {
     if (dataString[0] == ' ') {
         console.error('Found space on the start')
         return
@@ -19,6 +19,7 @@ export function prepareString(dataString: string): void {
             }
         }
     }
+    return dataString
 
 }
 
