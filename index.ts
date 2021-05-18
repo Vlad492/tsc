@@ -1,4 +1,4 @@
-const parser = (dataString: string): void => {
+export function prepareString(dataString: string): void {
     if (dataString[0] == ' ') {
         console.error('Found space on the start')
         return
@@ -22,7 +22,7 @@ const parser = (dataString: string): void => {
 
 }
 
-let data: Array<string> = ['qwdqwdqwd', 'qwdqwdqwdqwd', '   qwdqwdqwd   ', 'dqwdwdqwq w dqwd qwd qd']
-data.forEach((elem) => {
-    parser(elem)
-})
+// let data: Array<string> = ['qwdqwdqwd', 'qwdqwdqwdqwd', '   qwdqwdqwd   ', 'dqwdwdqwq w dqwd qwd qd']
+// data.forEach((elem) => {
+//     parser(elem)
+// })
