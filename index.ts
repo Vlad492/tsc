@@ -13,7 +13,7 @@ const parser = (dataString: string): void => {
         if (array[i] === '{') {
             while (array[i] !== '}') {
                 if (array[i] === '&') {
-                    console.log('looks like this is a start of special character')
+                    console.log('looks like a start of special character')
                     //this is a place for special character
                 }
             }
