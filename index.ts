@@ -14,7 +14,7 @@ const parser = (dataString: string) => {
             while (array[i] !== '}') {
                 if (array[i] === '&') {
                     console.log('looks like this is a start of special character')
-                    //this is a place for checking 
+                    //this is a place for special character
                 }
             }
         }
